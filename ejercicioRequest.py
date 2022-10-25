@@ -6,3 +6,6 @@ import requests
 r = requests.get('https://clandestina-hds.com/movies/title?search=shrek')
 data = r.json()
 
+
+
+# https://clandestina-hds.com/movies/'id'

@@ -25,6 +25,7 @@ class VentanaPrincipal(QMainWindow):
         contenedor.setLayout(lytPrincipal)
         self.setCentralWidget(contenedor)
 
+
     def buscarTexto(self):
         cursor = self.texto.textCursor()
         cursor.setPosition(0)
