@@ -5,12 +5,15 @@ import requests
 import threading
 import functools
 
+#este es el esqueleto del programa
+
 # Subclase QMainWindow
 class VentanaPrincipal(QMainWindow):
+
     def _init_(self):
         super()._init_()
         self.setWindowTitle("Mi buscador")
-        self.resize(6000, 2000)
+        self.resize(5500, 2000)
         self.contenedor = QWidget()
 
         leftcolumna = QWidget()
@@ -51,7 +54,7 @@ class VentanaPrincipal(QMainWindow):
             print("La pelicula de nombre: {} \n Tiene una URL de imagen: {}".format(pelicula['title'],
                                                                                     pelicula["image"]))
             self.mostrarimagenes(pelicula["image"])
-            Thread
+            #Thread
             index = index + 1
             if index == limit:
                 break

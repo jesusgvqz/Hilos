@@ -8,7 +8,7 @@ if __name__ == "__main__":
 
 # grid de botones
     grid = QGridLayout(w)
-
+#este es un test de un grid con botones
     for i in range(3):
         for j in range(3):
             grid.addWidget(QPushButton("Button"),i,j)

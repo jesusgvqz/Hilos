@@ -6,6 +6,7 @@ import requests
 r = requests.get('https://clandestina-hds.com/movies/title?search=shrek')
 data = r.json()
 
-
+#agregar porqué estamos haciendo el parse a JSON en la documentación
+#un arreglo de bites que nos llegó, lo sacamos, lo parseamos y lo volvemos a usar??
 
 # https://clandestina-hds.com/movies/'id'
