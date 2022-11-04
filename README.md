@@ -17,7 +17,7 @@ Los hilos poseen un estado de ejecución y pueden sincronizarse entre ellos para
 *Python* facilita el uso del **JSON** de *JavaScript*.
 Primero que nada, debe importarse la librería. La que principalmente parsea el JSON de archivos o strings. También parsea el JSON en un diccionario o en una lista en Python y viceversa, es decir, convierte los diccionarios y las listas de Python en cadenas JSON.
 
-> r = requests.get('https://clandestina-hds.com/movies/title?search=shrek')
+> r = requests.get('https://clandestina-hds.com/movies/title?search=shrek') <br>
 > data = r.json()
 
 
