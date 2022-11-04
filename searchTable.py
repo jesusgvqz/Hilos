@@ -6,7 +6,7 @@ from PyQt5.QtGui import QStandardItemModel, QStandardItem
 class AppDemo(QWidget):
     def __init__(self):
         super().__init__()
-        self.resize(1200, 1000)
+        self.resize(800, 600)
         mainLayout = QVBoxLayout()
 
         companies = ('Apple', 'Facebook', 'Google', 'Amazon', 'Walmart', 'Dropbox', 'Starbucks', 'eBay', 'Canon')
