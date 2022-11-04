@@ -2,8 +2,7 @@
 
 import json
 import requests
-from PyQt5.QtWidgets import QApplication, QMainWindow, QWidget, QGridLayout, QLineEdit, QPushButton, QPlainTextEdit, \
-    QLabel
+from PyQt5.QtWidgets import QApplication, QMainWindow, QWidget, QGridLayout, QLineEdit, QPushButton, QPlainTextEdit, QLabel
 from PyQt5.QtGui import QImage, QPixmap
 
 
